@@ -2,8 +2,13 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function hello() {
-  console.log('world');
+class hello {
+  constructor() {
+    this.hello = 'world';
+  }
+  print() {
+    console.log('Hello World!');
+  }
 }
 
 exports.hello = hello;

@@ -1,5 +1,10 @@
-function hello() {
-  console.log('world');
+class hello {
+  constructor() {
+    this.hello = 'world';
+  }
+  print() {
+    console.log('Hello World!');
+  }
 }
 
 export { hello };
