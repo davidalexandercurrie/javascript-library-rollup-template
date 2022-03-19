@@ -1,3 +1,7 @@
+function add(x, y) {
+  return x + y;
+}
+
 class hello {
   constructor() {
     this.hello = 'world';
@@ -7,5 +11,5 @@ class hello {
   }
 }
 
-export { hello };
+export { add, hello };
 //# sourceMappingURL=index.js.map
